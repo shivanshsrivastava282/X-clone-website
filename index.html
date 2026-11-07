@@ -13,11 +13,13 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex container mx-auto justify-center my-4">
+    <div class="flex justify-center my-1 md:mx-10">
+       <div class="flex ">
         <!-- overflow-scroll md:h-auto max-h-screen md:overflow-auto overflow-x-hidden scrollbar-track-black scrollbar-thumb-gray-800 -->
-        <div class="first w-16 md:w-[70%] ">
-            <div class="sidebar sticky top-0 flex md:items-end flex-col">
-                <div class="logo invert my-3 md:self-start
+         <div class="first md:w-[70%] ">
+            <div class="sidebar sticky top-0 flex md:items-end  flex-col">
+             
+                <div class="logo invert my-3 md:pr-10 
                 md:mx-40">
                     <svg viewBox="0 0 24 24" aria-hidden="true"
                         class="w-8 mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -26,8 +28,8 @@
                                 d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
                             </path>
                         </g>
-                    </svg>
-                </div>
+                    </svg> 
+                </div>   
                 <ul class="flex flex-col space-y-2 text-xl md:px-11 font-bold">
                     <li
                         class="flex md:justify-start items-center justify-center gap-3 md:w-fit hover:border-0 hover:rounded-full hover:bg-gray-800 hover:cursor-pointer px-5 py-3 ">
@@ -130,8 +132,8 @@
                 </div>
 
             </div>
-        </div>
-        <div class="second  w-full border border-x-gray-600 border-y-black">
+         </div>
+         <div class="second  w-full border border-x-gray-600 border-y-black">
             <div class="top flex p-3 bg-black backdrop-blur-3xl opacity-80 sticky top-0">
                 <div class="absolute w-15 h-1 bg-blue-500 rounded-full bottom-0 left-27">
 
@@ -385,8 +387,8 @@
 
 
 
-        </div>
-        <div class="third hidden md:block w-full">
+         </div>
+         <div class="third hidden md:block w-full">
             <div class="search m-3">
                 <input type="text" class="w-1/2 border  rounded-full text-white px-4 py-2 bg-gray-950"
                     placeholder="Search">
@@ -480,7 +482,8 @@
 
             </div>
 
-        </div>
+         </div>
+       </div>
     </div>
 
 </body>
